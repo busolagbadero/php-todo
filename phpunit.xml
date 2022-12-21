@@ -29,4 +29,5 @@
              logIncompleteSkipped="false"/>
     
     </logging>
+    ENV XDEBUG_MODE=coverage
 </phpunit>
