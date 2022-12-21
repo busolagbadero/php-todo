@@ -28,4 +28,6 @@
         <log type="junit" target="./build/logs/junit.xml"
              logIncompleteSkipped="false"/>
     </logging>
+    <env name="XDEBUG_MODE" value="coverage"/>
+  <ini name="xdebug.mode" value="coverage"/>
 </phpunit>
